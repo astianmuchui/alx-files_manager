@@ -25,4 +25,6 @@ class RedisClient {
     }
 }
 
-export default redisClient = new RedisClient();
+redisClient = new RedisClient();
+
+module.exports = redisClient;
